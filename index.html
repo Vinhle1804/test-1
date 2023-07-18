@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>bai 1</title>
+    <style>
+      body {
+        border-radius: 1px;
+        box-shadow: 0 0 10px rgba(22, 21, 21, 0.3);
+        padding: 30px;
+        margin: 0;
+      }
+
+      header {
+        text-align: center;
+        background-color: black;
+        color: white;
+        padding: 20px;
+      }
+
+      nav {
+        background-color: lightgray;
+        color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        padding: 10px;
+      }
+
+      main {
+        text-align: center;
+        padding: 20px;
+      }
+
+      footer {
+        text-align: center;
+        padding: 20px;
+      }
+
+      .image-container {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        margin-top: 20px;
+      }
+
+      .image-container div {
+        max-width: 300px;
+      }
+
+      .image-container img {
+        width: 100%;
+        height: auto;
+      }
+
+      @media (max-width: 600px) {
+        body{
+          width: 300px;
+        }
+
+
+
+        .image-container div {
+          max-width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Portfolio Website</h1>
+      <nav>
+        <span>Home</span>
+        <span>About</span>
+        <span>Portfolio</span>
+        <span>Contact</span>
+      </nav>
+    </header>
+
+    <main>
+      <div>
+        <h1>Welcome</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
+          reprehenderit minima minus odio ratione dolorum earum! Molestias iure,
+          nihil dolores, laborum ut aperiam vero recusandae optio asperiores,
+          ducimus quasi libero!
+        </p>
+      </div>
+      <div>
+        <button>View Portfolio</button>
+      </div>
+      <div>
+        <h1>Feature work</h1>
+      </div>
+      <div class="image-container">
+        <div>
+          <img src="image/anh-dep-lam-hinh-nen-dien-thoai-004.jpg" alt="vinh" />
+          <p>1</p>
+        </div>
+        <div>
+          <img src="image/anh-dep-lam-hinh-nen-dien-thoai-004.jpg" alt="vinh" />
+          <p>2</p>
+        </div>
+        <div>
+          <img src="image/anh-dep-lam-hinh-nen-dien-thoai-004.jpg" alt="vinh" />
+          <p>3</p>
+        </div>
+        <div>
+          <img src="image/anh-dep-lam-hinh-nen-dien-thoai-004.jpg" alt="vinh" />
+          <p>4</p>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div>
+        <h1>About Me</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Perspiciatis magni vel officiis voluptatem adipisci suscipit quia
+          commodi porro, fugit modi earum voluptatum ea molestiae dignissimos
+          possimus asperiores delectus. Architecto, obcaecati?
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
